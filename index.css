@@ -1,0 +1,23 @@
+
+.ball{
+    position: absolute;
+    border: 1px solid #666;
+    border-radius: 100%;
+    height: 3em;
+    width: 3em;
+    transition: 2s;
+    top: var(--top);
+    left: var(--left);
+    background-color: #6200ff;
+    box-shadow: inset 0px 0px 5px 5px #666;
+}
+
+.target{
+    height: 4em;
+    width: 4em;
+    box-shadow: inset 0px 0px 20px 20px #666;
+    border: 1px solid #666;
+    background-color: #444;
+    border-radius: 25%;
+    margin: 32% auto;
+}
